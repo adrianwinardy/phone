@@ -1,0 +1,149 @@
+*{
+    font-size: 25px;
+    text-align: justify;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+h1,h2{
+    margin-left: 1%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: -800px;
+}
+
+.textcontainer{
+    margin-left: 5px;
+}
+
+.topnavcont{
+    height: 150px;
+}
+
+.topnav{
+    width: 100%;
+    height: 100%;
+    background-color: #506ba4;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: grey;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container1text{
+    padding-bottom: 200px;
+}
+
+.whatisASL{
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbtn{
+  background-color: white;
+  color: black;
+  font-size: 50px;
+  border: none;
+  margin: 5px;
+}
+
+.dropdown:hover .dropbtn {
+    border: solid;
+    padding: none;
+    margin: none;
+}
+
+.dropdown {
+  position: static;
+  width: fit-content;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  left: 101px;
+  bottom: 101px;
+  min-width: 150px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-top: 5px solid rgb(15, 15, 15);
+    color: black;
+    align-items: center;
+}
+
+.footertext{
+	margin: 10px;
+	text-align: center;
+    font-size: 50px;
+}
+
+.header{
+    padding-bottom: 800px;
+}
+
+
+.alphacont{
+    display: flex;
+}
+
+li
+{
+   display: block;   
+   float: left;
+   width: 100%;
+   height: 70px;
+   vertical-align: top;
+}
+
+.sec2{
+    margin-top: 20px;
+    margin-left: 500px;
+    position: absolute;
+}
